@@ -15,8 +15,7 @@
   "bugs": {
     "url": "https://github.com/ronaldalfaro/ronaldalfaro.github.io/issues"
   },
-  //"homepage": "https://github.com/ronaldalfaro/ronaldalfaro.github.io/",
-  "homepage": "https://ronaldalfaro.github.io/ronaldalfaro.github.io/",
+  "homepage": "https://github.com/ronaldalfaro/ronaldalfaro.github.io/app",
   "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
