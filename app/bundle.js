@@ -54,7 +54,7 @@
 	var React = __webpack_require__(2);
 	var ReactDOM = __webpack_require__(33);
 	var HelloWorld = React.createClass({  render: function () {    
-	  return React.createElement('div', null, 'Hello World 2'); 
+	  return React.createElement('div', null, 'Hello World 3'); 
 	}});
 
 	ReactDOM.render(React.createElement(HelloWorld), document.querySelector('#react-mount'));
