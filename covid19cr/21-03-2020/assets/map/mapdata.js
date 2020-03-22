@@ -16,7 +16,7 @@ var simplemaps_countrymap_mapdata={
     all_states_zoomable: "yes",
     
     //Location defaults
-    location_description: "Casos activos: 1, 0.7462686567%",
+    location_description: "Casos activos: 1, 0.8547008547%",
     location_url: "",
     location_color: "#f7d708",
     location_opacity: "1",
@@ -74,31 +74,30 @@ var simplemaps_countrymap_mapdata={
   state_specific: {
     CRI1327: {
       name: "Cartago",
-      description: "Cantidad 9, 6.71641791%"
+      description: "Cantidad 9, 7.692307692%"
     },
     CRI1328: {
       name: "Heredia",
-      description: "Cantidad 13, 9.701492537%"
+      description: "Cantidad 11, 9.401709402%"
     },
     CRI1329: {
       name: "Limón",
-      description: "Cantidad 1, 0.7462686567"
+      description: "Cantidad 1, 0.8547008547%"
     },
     CRI1330: {
-      name: "Puntarenas",
-      description: "Cantidad 1, 0.7462686567"
+      name: "Puntarenas"
     },
     CRI1331: {
       name: "San José",
-      description: "Cantidad 65, 48.50746269%"
+      description: "Cantidad 53, 45.2991453%"
     },
     CRI1333: {
       name: "Alajuela",
-      description: "Cantidad 40, 29.85074627%"
+      description: "Cantidad 38, 32.47863248%"
     },
     CRI1334: {
       name: "Guanacaste",
-      description: "Cantidad 5, 3.731343284%"
+      description: "Cantidad 5, 4.273504274%"
     }
   },
   locations: {
@@ -108,7 +107,7 @@ var simplemaps_countrymap_mapdata={
       name: "Escazú",
       color: "#ff9e00",
       size: "50",
-      description: "Casos activos: 11, 8.208955224%"
+      description: "Casos activos: 11, 9.401709402%"
     },
     "1": {
       lat: "10.015910",
@@ -116,7 +115,7 @@ var simplemaps_countrymap_mapdata={
       name: "Alajuela",
       color: "#ce0000",
       size: "75",
-      description: "Casos activos: 26, 19.40298507%"
+      description: "Casos activos: 25, 21.36752137%"
     },
     "2": {
       lat: "9.933333",
@@ -124,115 +123,114 @@ var simplemaps_countrymap_mapdata={
       name: "San José",
       color: "#ff9e00",
       size: "50",
-      description: "Casos activos: 17 12.68656716%"
+      description: "Casos activos: 12 10.25641026%"
     },
     "3": {
       lat: "9.931379",
       lng: "-84.180798",
       name: "Santa Ana",
-      description: "Casos activos: 11, 8.208955224%"
+      description: "Casos activos: 7, 5.982905983%"
     },
     "4": {
       lat: "9.917229",
       lng: "-84.03501",
       name: "Curridabat",
-      description: "Casos activos: 5, 3.731343284%"
+      description: "Casos activos: 5, 4.273504274%"
     },
     "5": {
       lat: "10.073655",
       lng: "-84.313632",
       name: "Grecia",
-      description: "Casos activos: 5, 3.731343284%"
+      description: "Casos activos: 5, 4.273504274%"
     },
     "6": {
       lat: "9.923775",
       lng: "-84.000852",
       name: "La Unión",
-      description: "Casos activos: 5, 3.731343284%"
+      description: "Casos activos: 5, 4.273504274%"
     },
     "7": {
       lat: "10.073097",
       lng: "-84.245015",
       name: "Poás",
-      description: "Casos activos: 5, 3.731343284%"
+      description: "Casos activos: 5, 4.273504274%"
     },
     "8": {
       lat: "9.864686",
       lng: "-83.920386",
       name: "Cartago",
-      description: "Casos activos: 4, 2.985074627%"
+      description: "Casos activos: 4, 3.418803419%"
     },
     "9": {
       lat: "9.897177",
       lng: "-84.064862",
       name: "Desamparados",
-      description: "Casos activos: 4, 2.985074627%"
+      description: "Casos activos: 4, 3.418803419%"
     },
     "10": {
       lat: "9.99835",
       lng: "-84.120691",
       name: "Heredia",
-      description: "Casos activos: 4, 2.985074627%"
+      description: "Casos activos: 4, 3.418803419%"
     },
     "11": {
       lat: "9.963499",
       lng: "-84.047514",
       name: "Moravia",
-      description: "Casos activos: 5, 3.731343284%"
+      description: "Casos activos: 4, 3.418803419%"
     },
     "12": {
       lat: "9.937177",
       lng: "-84.040615",
       name: "Montes de Oca",
-      description: "Casos activos: 3, 2.23880597%"
+      description: "Casos activos: 3, 2.564102564%"
     },
     "13": {
       lat: "10.144688",
       lng: "-85.453249",
       name: "Nicoya",
-      description: "Casos activos: 3, 2.23880597%"
+      description: "Casos activos: 3, 2.564102564%"
     },
     "14": {
       lat: "9.376858",
       lng: "-83.661771",
       name: "Perez Zeledón",
-      description: "Casos activos: 3, 2.23880597%"
+      description: "Casos activos: 3, 2.564102564%"
     },
     "15": {
       lat: "10.02665",
       lng: "-84.127484",
       name: "San Pablo",
-      description: "Casos activos: 4, 2.985074627%"
+      description: "Casos activos: 3, 2.564102564%"
     },
     "16": {
       lat: "9.977026",
       lng: "-84.007778",
       name: "Coronado",
-      description: "Casos activos: 2, 1.492537313%"
+      description: "Casos activos: 2, 1.709401709%"
     },
     "17": {
       lat: "10.514004",
       lng: "-84.433104",
       name: "San Carlos",
-      description: "Casos activos: 2, 1.492537313%"
+      description: "Casos activos: 2, 1.709401709%"
     },
     "18": {
       lat: "10.260717",
       lng: "-85.585986",
       name: "Santa Cruz",
-      description: "Casos activos: 2, 1.492537313%"
+      description: "Casos activos: 2, 1.709401709%"
     },
     "19": {
       lat: "9.958463",
       lng: "-84.081443",
       name: "Tibás",
-      description: "Casos activos: 3, 2.23880597%"
+      description: "Casos activos: 2, 1.709401709%"
     },
     "20": {
       lat: "9.97838",
       lng: "-84.379721",
-      name: "Atenas",
-      description: "Casos activos: 2, 1.492537313%"
+      name: "Atenas"
     },
     "21": {
       lat: "10.019366",
@@ -247,8 +245,7 @@ var simplemaps_countrymap_mapdata={
     "23": {
       lat: "10.014274",
       lng: "-84.098486",
-      name: "San Rafael",
-      description: "Casos activos: 2, 1.492537313%"
+      name: "San Rafael"
     },
     "24": {
       lat: "10.037298",
@@ -259,16 +256,6 @@ var simplemaps_countrymap_mapdata={
       lat: "9.980734",
       lng: "-84.091177",
       name: "Santo Domingo"
-    },
-    "26": {
-      lat: "9.864198",
-      lng: "-84.092883",
-      name: "Aserrí"
-    },
-    "27": {
-      lat: "8.821677",
-      lng: "-82.970295",
-      name: "San Vito"
     }
   },
   labels: {},
