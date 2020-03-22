@@ -131,7 +131,8 @@ var simplemaps_countrymap_mapdata={
       lng: "-84.180798",
       name: "Santa Ana",
       description: "Casos activos: 11, 8.208955224%",
-      size: "50"
+      size: "50",
+      color: "#ff9e00"
     },
     "4": {
       lat: "9.917229",
