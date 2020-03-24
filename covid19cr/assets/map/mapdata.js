@@ -74,7 +74,7 @@ var simplemaps_countrymap_mapdata={
   state_specific: {
     CRI1327: {
       name: "Cartago",
-      description: "Total confirmados 10, -84.433344%"
+      description: "Total confirmados 10, 6.329113924%"
     },
     CRI1328: {
       name: "Heredia",
