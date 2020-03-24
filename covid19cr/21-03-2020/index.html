@@ -53,6 +53,29 @@ body{font-family: Didact Gothic;}blockquote{border-color: #232323;}div[submit-su
 	text-align: center;
 	color: white;
 }
+#menu-btn-left{
+  float: left;
+}
+#menu-btn-right{
+  float: right;
+}
+@media only screen and (max-width: 600px) {
+  .custom-menu-btn{
+    float: left;
+  }
+  #menu-btn-right{
+  float: left;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+#menu-btn-left{
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+}
+}
 </style>
  
   <script async  src="https://cdn.ampproject.org/v0.js"></script>
@@ -76,8 +99,8 @@ body{font-family: Didact Gothic;}blockquote{border-color: #232323;}div[submit-su
 <body>
 	<section style="background-color: #f36b43;padding: 30 0 0 0;">
 		<div class="container">
-    		<a style="float: left;" href="https://ronaldalfaro.dev/covid19cr/index.html" class="btn fourth">Inicio</a>
-          <a style="float: right;" href="https://ronaldalfaro.dev/covid19cr/historico.html" class="btn fourth">Histórico</a>
+    		<a id="menu-btn-left"  href="https://ronaldalfaro.dev/covid19cr/index.html" class="btn fourth custom-menu-btn">Inicio</a>
+        <a id="menu-btn-right" href="https://ronaldalfaro.dev/covid19cr/historico.html" class="btn fourth custom-menu-btn">Histórico</a>
     </div>
 	</section>
   <section class="features3 cid-rvEmXmjrMB" id="features3-5" style="padding-top: 0px">
