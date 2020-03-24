@@ -15,7 +15,7 @@
 <meta property="og:description"        content="Coronavirus COVID-19 (2019-nCoV) Costa Rica" />
 <meta property="og:image"              content="https://ronaldalfaro.dev/covid19cr/assets/images/map.png" />
 
-	<script src="assets/map/mapdata.js"></script>
+  <script src="assets/map/mapdata.js?v23"></script>
     <script src="assets/map/countrymap.js"></script>
 
 <link rel="canonical" href="./">
@@ -45,13 +45,20 @@ body{font-family: Didact Gothic;}blockquote{border-color: #232323;}div[submit-su
   }
 }
 #img-ministerio{
-	width: 90%;
-	margin: auto;
+  width: 90%;
+  margin: auto;
 }
 .footer-p{
-	width: 100%;
-	text-align: center;
-	color: white;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+}
+a{
+  color: #551A8B;
 }
 </style>
  
@@ -69,36 +76,52 @@ body{font-family: Didact Gothic;}blockquote{border-color: #232323;}div[submit-su
       ga('send', 'pageview');
       </script>
       <!-- End Google Analytics -->
-       <!-- ShareThis BEGIN -->
+      <!-- ShareThis BEGIN -->
 <script async src="https://platform-api.sharethis.com/js/sharethis.js#property=5e7958d36caf2b00125bec3c&product=sticky-share-buttons"></script>
-<!-- ShareThis END -->
+<!--ShareThis END -->
 </head>
 <body>
-	<section style="background-color: #f36b43;padding: 30 0 0 0;">
-		<div class="container">
-    		<a style="float: left;" href="https://ronaldalfaro.dev/covid19cr/index.html" class="btn fourth">Inicio</a>
-          <a style="float: right;" href="https://ronaldalfaro.dev/covid19cr/historico.html" class="btn fourth">Histórico</a>
+  <section style="background-color: #f36b43;padding: 30 0 0 0;">
+    <div class="container">
+        <a style="float: left;" href="index.html" class="btn fourth">Inicio</a>
+          <!--<a style="float: right;" href="index.html" class="btn fourth">Mi mapa</a>-->
     </div>
-	</section>
+  </section>
   <section class="features3 cid-rvEmXmjrMB" id="features3-5" style="padding-top: 0px">
-    
-
     
     <div class="container">
         <div class="title mbr-pb-4 mbr-white align-center">
             <h3 class="mbr-section-title mbr-fonts-style mbr-pb-4 display-2">COVID-19 Costa Rica</h3>
-            <h5 class="mbr-section-subtitle mbr-pb-4 mbr-fonts-style display-5">Este mapa virtual de Costa Rica, divido en provincias fue creado para visualizar y rastrear casos reportados en tiempo real. Ilustra la ubicación y el número de casos confirmados de COVID-19 en Costa Rica. Fue desarrollado para proporcionar a los investigadores, las autoridades de salud pública y el público en general una herramienta fácil de usar para rastrear el brote a medida que se desarrolla. Además, todos los datos recopilados y mostrados se ponen a disposición de forma gratuita basado en reportes oficiales del Ministeria de Salud.</h5>
-            <h4 class="mbr-section-title mbr-fonts-style mbr-pb-4 display-2">#QuedateEnCasa 21/03/2020</h4>
-        </div>
-        <div class="mbr-row">
-        	<div style="width: 600px; height: auto;margin:auto;">
-        		<div id="map"></div>
-        	</div>
             
+            <h4 class="mbr-section-title mbr-fonts-style mbr-pb-4 display-2">#QuedateEnCasa</h4>
+
+            <h5 class="mbr-section-subtitle mbr-pb-4 mbr-fonts-style display-5">
+              
+              <ul>
+                <li class="mbr-fonts-style"><a target="_self" href="index.html">23/03/2020</a></li>
+                <li class="mbr-fonts-style"><a target="_self" href="22-03-2020/index.html">22/03/2020</a></li>
+                <li class="mbr-fonts-style"><a target="_self" href="22-03-2020/index.html">21/03/2020</a></li>
+              </ul>
+            </h5>
         </div>
+        <!--<div class="mbr-row">
+          <div style="width: 600px; height: auto;margin:auto;">
+            <div id="map"></div>
+          </div>
+            
+        </div>-->
     </div>
 </section>
 
+<section class="features3 cid-rvEp6n4hUa" id="features3-6">
+    
+    <div class="container">
+        
+        <div class="mbr-row">
+                      
+        </div>
+    </div>
+</section>
 <section class="features3 cid-rvEp6n4hUa" id="features3-6">
     
 
@@ -106,18 +129,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #232323;}div[submit-su
     <div class="container">
         
         <div class="mbr-row">
-            <img id="img-ministerio" src="https://www.ministeriodesalud.go.cr/sobre_ministerio/prensa/img_cvd/img_datos_marzo_2020_11.jpeg">           
-        </div>
-    </div>
-</section>
-<section class="features3 cid-rvEp6n4hUa" id="features3-6">
-    
-
-    
-    <div class="container">
-        
-        <div class="mbr-row">
-        	<h4 class="mbr-section-subtitle mbr-pb-4 mbr-fonts-style display-5 footer-p">Fuente: <a target="_blank" href="https://www.ministeriodesalud.go.cr/">Ministerio de Salud</a></h4>
+          <h4 class="mbr-section-subtitle mbr-pb-4 mbr-fonts-style display-5 footer-p">Fuente: <a target="_blank" href="https://www.ministeriodesalud.go.cr/">Ministerio de Salud</a></h4>
             <h4 class="mbr-section-subtitle mbr-pb-4 mbr-fonts-style display-5 footer-p">Mapa: <a target="_blank" href="https://simplemaps.com/">Simple Maps</a></h4>
             <h4 class="mbr-section-subtitle mbr-pb-4 mbr-fonts-style display-5 footer-p">Hecho por: <a target="_blank" href="https://ronaldalfaro.dev/">Ronald Alfaro</a></h4>
             
