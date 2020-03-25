@@ -15,7 +15,7 @@
 <meta property="og:description"        content="Coronavirus COVID-19 (2019-nCoV) Costa Rica" />
 <meta property="og:image"              content="https://ronaldalfaro.dev/covid19cr/assets/images/map.png" />
 <meta property="og:type"                content="website" />
-	<script src="assets/map/mapdata.js?v23"></script>
+	<script src="assets/map/mapdata.js?v24"></script>
     <script src="assets/map/countrymap.js"></script>
 
 <link rel="canonical" href="./">
@@ -53,6 +53,28 @@ body{font-family: Didact Gothic;}blockquote{border-color: #232323;}div[submit-su
 	text-align: center;
 	color: white;
 }
+#menu-btn-left{
+  float: left;
+}
+#menu-btn-right{
+  float: right;
+}
+@media only screen and (max-width: 600px) {
+  .custom-menu-btn{
+    float: left;
+  }
+  #menu-btn-right{
+  float: left;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+#menu-btn-left{
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+}
 </style>
  
   <script async  src="https://cdn.ampproject.org/v0.js"></script>
@@ -77,7 +99,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #232323;}div[submit-su
 	<section style="background-color: #f36b43;padding: 30 0 0 0;">
 		<div class="container">
     		<!--<a style="float: left;" href="#" class="btn fourth">Perfil</a>--> 
-        <a style="float: right;" href="historico.html" class="btn fourth">Histórico</a>
+        <a id="menu-btn-right" href="historico.html" class="btn fourth custom-menu-btn">Histórico</a>
     </div>
 	</section>
   <section class="features3 cid-rvEmXmjrMB" id="features3-5" style="padding-top: 0px">
@@ -88,7 +110,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #232323;}div[submit-su
         <div class="title mbr-pb-4 mbr-white align-center">
             <h3 class="mbr-section-title mbr-fonts-style mbr-pb-4 display-2">COVID-19 Costa Rica</h3>
             <h5 class="mbr-section-subtitle mbr-pb-4 mbr-fonts-style display-5">Este mapa virtual de Costa Rica, divido en provincias fue creado para visualizar y rastrear casos reportados en tiempo real. Ilustra la ubicación y el número de casos confirmados de COVID-19 en Costa Rica. Fue desarrollado para proporcionar a los investigadores, las autoridades de salud pública y el público en general una herramienta fácil de usar para rastrear el brote a medida que se desarrolla. Además, todos los datos recopilados y mostrados se ponen a disposición de forma gratuita basado en reportes oficiales del Ministeria de Salud.</h5>
-            <h4 class="mbr-section-title mbr-fonts-style mbr-pb-4 display-2">#QuedateEnCasa 23/03/2020</h4>
+            <h4 class="mbr-section-title mbr-fonts-style mbr-pb-4 display-2">#QuedateEnCasa 24/03/2020</h4>
         </div>
         <div class="mbr-row">
         	<div style="width: 600px; height: auto;margin:auto;">
@@ -106,7 +128,7 @@ body{font-family: Didact Gothic;}blockquote{border-color: #232323;}div[submit-su
     <div class="container">
         
         <div class="mbr-row">
-            <img id="img-ministerio" src="https://www.ministeriodesalud.go.cr/sobre_ministerio/prensa/img_cvd/img_datos_marzo_2020_13.jpeg">           
+            <img id="img-ministerio" src="https://www.ministeriodesalud.go.cr/sobre_ministerio/prensa/img_cvd/img_datos_marzo_2020_14.jpeg">           
         </div>
     </div>
 </section>
