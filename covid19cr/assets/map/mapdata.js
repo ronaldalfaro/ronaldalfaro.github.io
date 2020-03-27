@@ -16,7 +16,7 @@ var simplemaps_countrymap_mapdata={
     all_states_zoomable: "yes",
     
     //Location defaults
-    location_description: "Casos confirmados: 2, 0.9950248756%",
+    location_description: "Casos confirmados: 1, 0.4329004329%",
     location_url: "",
     location_color: "#f7d708",
     location_opacity: "1",
@@ -103,236 +103,260 @@ var simplemaps_countrymap_mapdata={
   },
   locations: {
     "0": {
-      lat: "9.920878",
-      lng: "-84.145945",
-      name: "Escazú",
-      color: "#ff9e00",
-      size: "35",
-      description: "Casos confirmados: 13, 6.467661692%"
-    },
-    "1": {
-      lat: "10.015910",
+      lat: "10.01591",
       lng: "-84.214373",
       name: "Alajuela",
       color: "#ce0000",
       size: "55",
-      description: "Casos confirmados: 36, 17.91044776%"
+      description: "Casos confirmados: 45, 19.48051948%"
     },
-    "2": {
+    "1": {
       lat: "9.933333",
       lng: "-84.083333",
       name: "San José",
       color: "#ce0000",
-      size: "45",
-      description: "Casos confirmados: 21 10.44776119%"
+      description: "Casos confirmados: 23, 9.956709957%",
+      size: "45"
+    },
+    "2": {
+      lat: "9.920625",
+      lng: "-84.145945",
+      name: "Escazú",
+      color: "#ff9e00",
+      description: "Casos confirmados: 13, 5.627705628%",
+      size: "35"
     },
     "3": {
       lat: "9.931379",
       lng: "-84.180798",
       name: "Santa Ana",
-      description: "Casos confirmados: 14, 6.965174129%",
-      size: "35",
-      color: "#ff9e00"
+      description: "Casos confirmados: 16, 6.926406926%",
+      color: "#ff9e00",
+      size: "35"
     },
     "4": {
-      lat: "9.917229",
-      lng: "-84.03501",
-      name: "Curridabat",
-      description: "Casos confirmados: 5, 2.487562189%"
+      lat: "9.958463",
+      lng: "-84.081443",
+      name: "Tibás",
+      description: "Casos confirmados: 12, 5.194805195%"
     },
     "5": {
       lat: "10.073655",
       lng: "-84.313632",
       name: "Grecia",
-      description: "Casos confirmados: 7, 3.482587065%"
+      description: "Casos confirmados: 9, 3.896103896%"
     },
     "6": {
-      lat: "9.923775",
-      lng: "-84.000852",
-      name: "La Unión",
-      description: "Casos confirmados: 6, 2.985074627%"
-    },
-    "7": {
-      lat: "10.073097",
-      lng: "-84.245015",
-      name: "Poás",
-      description: "Casos confirmados: 5, 2.487562189%"
-    },
-    "8": {
-      lat: "9.864686",
-      lng: "-83.920386",
-      name: "Cartago",
-      description: "Casos confirmados: 4, 1.990049751%"
-    },
-    "9": {
-      lat: "9.897177",
-      lng: "-84.064862",
-      name: "Desamparados",
-      description: "Casos confirmados: 7, 3.482587065%"
-    },
-    "10": {
       lat: "9.99835",
       lng: "-84.120691",
       name: "Heredia",
-      description: "Casos confirmados: 9, 4.47761194%"
+      description: "Casos confirmados: 9, 3.896103896%"
     },
-    "11": {
-      lat: "9.963499",
-      lng: "-84.047514",
-      name: "Moravia",
-      description: "Casos confirmados: 6, 2.985074627%"
+    "7": {
+      lat: "9.897177",
+      lng: "-84.064862",
+      name: "Desamparados",
+      description: "Casos confirmados: 8, 3.463203463%"
     },
-    "12": {
-      lat: "9.937177",
-      lng: "-84.040615",
-      name: "Montes de Oca",
-      description: "Casos confirmados: 5, 2.487562189%"
-    },
-    "13": {
-      lat: "10.144688",
-      lng: "-85.453249",
-      name: "Nicoya",
-      description: "Casos confirmados: 3, 1.492537313%"
-    },
-    "14": {
-      lat: "9.376858",
-      lng: "-83.661771",
-      name: "Perez Zeledón",
-      description: "Casos confirmados: 3, 1.492537313%"
-    },
-    "15": {
-      lat: "10.02665",
-      lng: "-84.127484",
-      name: "San Pablo",
-      description: "Casos confirmados: 4, 1.990049751%"
-    },
-    "16": {
-      lat: "9.977026",
-      lng: "-84.007778",
-      name: "Coronado"
-    },
-    "17": {
-      lat: "10.514004",
-      lng: "-84.433104",
-      name: "San Carlos",
-      description: "Casos confirmados: 5, 2.487562189%"
-    },
-    "18": {
-      lat: "10.260717",
-      lng: "-85.585986",
-      name: "Santa Cruz"
-    },
-    "19": {
-      lat: "9.958463",
-      lng: "-84.081443",
-      name: "Tibás",
-      description: "Casos confirmados: 10, 4.975124378%"
-    },
-    "20": {
-      lat: "9.97838",
-      lng: "-84.379721",
-      name: "Atenas"
-    },
-    "21": {
-      lat: "10.019366",
-      lng: "-84.124257",
-      name: "Barva",
-      description: "Casos confirmados: 1, 0.4975124378%"
-    },
-    "22": {
-      lat: "9.992131",
-      lng: "-83.040035",
-      name: "Limón",
-      description: "Casos confirmados: 1, 0.4975124378%"
-    },
-    "23": {
-      lat: "10.014274",
-      lng: "-84.098486",
-      name: "San Rafael"
-    },
-    "24": {
-      lat: "10.037298",
-      lng: "-84.159008",
-      name: "Santa Barbara"
-    },
-    "25": {
-      lat: "9.980734",
-      lng: "-84.091177",
-      name: "Santo Domingo"
-    },
-    "26": {
-      lat: "9.864198",
-      lng: "-84.092883",
-      name: "Aserrí"
-    },
-    "27": {
-      lat: "8.821677",
-      lng: "-82.970295",
-      name: "Coto Brus"
-    },
-    "28": {
+    "8": {
       lat: "9.946762",
       lng: "-84.053382",
       name: "Goicoechea",
-      description: "Casos confirmados: 8, 3.980099502%"
+      description: "Casos confirmados: 8, 3.463203463%"
     },
-    "29": {
-      lat: "10.055889",
-      lng: "-84.433344",
-      name: "Palmares",
-      description: "Casos confirmados: 1, 0.4975124378%"
+    "9": {
+      lat: "9.923775",
+      lng: "-84.000852",
+      name: "La Unión",
+      description: "Casos confirmados: 6, 2.597402597%"
     },
-    "30": {
-      lat: "9.893648",
-      lng: "-83.747041",
-      name: "Jiménez"
+    "10": {
+      lat: "9.963499",
+      lng: "-84.047514",
+      name: "Moravia",
+      description: "Casos confirmados: 6, 2.597402597%"
     },
-    "31": {
-      lat: "10.63064",
-      lng: "-85.440717",
-      name: "Liberia",
-      description: "Casos confirmados: 1, 0.4975124378%"
+    "11": {
+      lat: "10.514004",
+      lng: "-84.433104",
+      name: "San Carlos",
+      description: "Casos confirmados: 6, 2.597402597%"
     },
-    "32": {
-      lat: "10.09191",
-      lng: "-84.729164",
-      name: "Montes de Oro",
-      description: "Casos confirmados: 1, 0.4975124378%"
+    "12": {
+      lat: "9.864686",
+      lng: "-83.920386",
+      name: "Cartago",
+      description: "Casos confirmados: 5, 2.164502165%"
     },
-    "33": {
+    "13": {
+      lat: "9.917229",
+      lng: "-84.03501",
+      name: "Curridabat",
+      description: "Casos confirmados: 5, 2.164502165%"
+    },
+    "14": {
+      lat: "9.937177",
+      lng: "-84.040615",
+      name: "Montes de Oca",
+      description: "Casos confirmados: 5, 2.164502165%"
+    },
+    "15": {
+      lat: "10.073097",
+      lng: "-84.245015",
+      name: "Poás",
+      description: "Casos confirmados: 5, 2.164502165%"
+    },
+    "16": {
+      lat: "10.02665",
+      lng: "-84.127484",
+      name: "San Pablo",
+      description: "Casos confirmados: 4, 1.731601732%"
+    },
+    "17": {
+      lat: "10.144688",
+      lng: "-85.453249",
+      name: "Nicoya",
+      description: "Casos confirmados: 3, 1.298701299%"
+    },
+    "18": {
+      lat: "9.376858",
+      lng: "-83.661771",
+      name: "Perez Zeledón",
+      description: "Casos confirmados: 3, 1.298701299%"
+    },
+    "19": {
       lat: "9.977867",
       lng: "-84.831837",
       name: "Puntarenas",
-      description: "Casos confirmados: 1, 0.4975124378%"
+      description: "Casos confirmados: 3, 1.298701299%"
     },
-    "34": {
+    "20": {
+      lat: "9.980734",
+      lng: "-84.091177",
+      name: "Santo Domingo",
+      description: "Casos confirmados: 3, 1.298701299%"
+    },
+    "21": {
+      lat: "9.864198",
+      lng: "-84.092883",
+      name: "Aserrí",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "22": {
+      lat: "9.97838",
+      lng: "-84.379721",
+      name: "Atenas",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "23": {
+      lat: "9.977026",
+      lng: "-84.007778",
+      name: "Coronado",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "24": {
+      lat: "8.821677",
+      lng: "-82.970295",
+      name: "Coto Brus",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "25": {
+      lat: "9.84528",
+      lng: "-83.938527",
+      name: "El Guarco",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "26": {
+      lat: "9.640411",
+      lng: "-84.627034",
+      name: "Garabito",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "27": {
+      lat: "9.893648",
+      lng: "-83.747041",
+      name: "Jiménez",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "28": {
+      lat: "9.868782",
+      lng: "-83.904141",
+      name: "Oreamuno",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "29": {
+      lat: "10.014274",
+      lng: "-84.098486",
+      name: "San Rafael",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "30": {
+      lat: "10.037298",
+      lng: "-84.159008",
+      name: "Santa Barbara",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "31": {
+      lat: "10.260717",
+      lng: "-85.585986",
+      name: "Santa Cruz",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "32": {
+      lat: "10.089398",
+      lng: "-84.348142",
+      name: "Valverde Vega",
+      description: "Casos confirmados: 2, 0.8658008658%"
+    },
+    "33": {
       lat: "9.915964",
       lng: "-83.809038",
-      name: "Alvarado",
-      description: "Casos confirmados: 1, 0.4975124378%"
+      name: "Alvarado"
+    },
+    "34": {
+      lat: "10.019366",
+      lng: "-84.124257",
+      name: "Barva"
     },
     "35": {
       lat: "9.97912",
       lng: "-84.185759",
-      name: "Belén",
-      description: "Casos confirmados: 1, 0.4975124378%"
+      name: "Belén"
     },
     "36": {
       lat: "10.00276",
       lng: "-84.152386",
-      name: "Flores",
-      description: "Casos confirmados: 1, 0.4975124378%"
+      name: "Flores"
     },
     "37": {
-      lat: "9.911194",
-      lng: "-84.523101",
-      name: "Orotina",
-      description: "Casos confirmados: 1, 0.4975124378%"
+      lat: "10.63064",
+      lng: "-85.440717",
+      name: "Liberia"
     },
     "38": {
-      lat: "9.640411",
-      lng: "-84.627034",
-      name: "Garabito"
+      lat: "9.992131",
+      lng: "-83.040035",
+      name: "Limón"
+    },
+    "39": {
+      lat: "10.055889",
+      lng: "-84.433344",
+      name: "Palmares"
+    },
+    "40": {
+      lat: "10.470288",
+      lng: "-84.967982",
+      name: "Tilarán"
+    },
+    "43": {
+      lat: "10.09191",
+      lng: "-84.729164",
+      name: "Montes de Oro"
+    },
+    "53": {
+      lat: "9.911194",
+      lng: "-84.523101",
+      name: "Orotina"
     }
   },
   labels: {},
