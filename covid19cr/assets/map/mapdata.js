@@ -74,31 +74,31 @@ var simplemaps_countrymap_mapdata={
   state_specific: {
     CRI1327: {
       name: "Cartago",
-      description: "Total confirmados 13, 6.467661692%"
+      description: "Total confirmados 18, 7.792207792%"
     },
     CRI1328: {
       name: "Heredia",
-      description: "Total confirmados 22, 10.94527363%"
+      description: "Total confirmados 23, 9.956709957%"
     },
     CRI1329: {
       name: "Limón",
-      description: "Total confirmados 1, 0.4975124378%"
+      description: "Total confirmados 1, 0.4329004329%"
     },
     CRI1330: {
       name: "Puntarenas",
-      description: "Total confirmados 7, 3.482587065%"
+      description: "Total confirmados 9, 3.896103896%"
     },
     CRI1331: {
       name: "San José",
-      description: "Total confirmados 96, 47.76119403%"
+      description: "Total confirmados 103, 44.58874459%"
     },
     CRI1333: {
       name: "Alajuela",
-      description: "Total confirmados 56, 27.86069652%"
+      description: "Total confirmados 70, 30.3030303%"
     },
     CRI1334: {
       name: "Guanacaste",
-      description: "Total confirmados 6, 2.985074627%"
+      description: "Total confirmados 7, 3.03030303%"
     }
   },
   locations: {
