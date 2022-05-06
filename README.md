@@ -1,4 +1,4 @@
 # ronaldalfaro.github.io
 
-This is a repository to store the development of my own personal website.
-https://ronaldalfaro.dev/
+This is a repository to store the development of my old personal website.
+https://ronaldalfaro.github.io/
